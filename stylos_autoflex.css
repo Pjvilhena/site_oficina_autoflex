@@ -1,0 +1,115 @@
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    color: aliceblue;
+    background-color: darkblue;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.inicio{    
+    background-color: white;
+    color: darkblue;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 0.4cm;
+}
+
+.sobre{
+    background-color: white;
+    color: darkblue;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 0.4cm;    
+}
+
+.servico{    
+    background-color: white;
+    color: darkblue;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 0.4cm;
+}
+
+.contato{    
+    background-color: white;
+    color: darkblue;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 0.4cm;
+}
+
+.banner{
+    display: flex;
+    justify-content:space-around;
+    align-items:center ;
+    margin: 1cm;    
+    
+}
+
+.banner img{
+    width: 900px;
+}
+
+
+
+.especializada{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: darkblue;
+    border: 2px solid darkblue;
+}
+
+
+.col img{
+    width: 16rem;
+}
+
+.especializada-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkblue;
+    
+}
+
+.separador{
+    flex-direction: flex;
+    border: 10px solid aliceblue;
+}
+
+.bloco-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;    
+    color: darkblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 1px;
+}
+
+.bloco-sobre2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner-quem-somos img{
+    width: 5px;
+
+}
+
+.footer{
+    background-color: darkblue;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+
